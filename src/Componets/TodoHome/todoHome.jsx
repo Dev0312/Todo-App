@@ -6,19 +6,14 @@ import Todoheader from '../header/header';
 import TodoAdd from '../TodoAdd/todoAdd';
 import TodoList from '../TodoList/TodoList';
 import Todofooter from '../Footer/footer';
+
 // CSS
-
-
 import '../../Styles/styles.css';
 
-
 //ANTD
-
 import { Row, Col, Layout } from 'antd';
-import { Footer } from 'antd/lib/layout/layout';
-
-
 const { Content } = Layout;
+
 
 const TodoHome = () => {
     return (

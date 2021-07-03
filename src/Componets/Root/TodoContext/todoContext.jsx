@@ -7,12 +7,7 @@ export const todoContext = createContext();
 
 const TodoContextProvider = ({children}) => {
    
-    const [Todo, setTodo] = useState([
-        {
-            id:1,
-            todo:'There is No Todos!!!!'
-        }
-    ]);
+    const [Todo, setTodo] = useState('');
 
     return (  
         <todoContext.Provider value={[Todo,setTodo]}>
